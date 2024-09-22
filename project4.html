@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project 4</title>
+</head>
+<body>
+    <table>
+        <form action="/ action_page.php" target="_blank">
+        <tr>
+            <td><label style="margin-right: 25px;" for="name">Nama</label></td>
+            <td><input type="text" name="firstname" placeholder="Nama depan">
+            <input type="text" name="lastname" placeholder="Nama belakang"></td>
+        </tr>
+        <tr>
+            <td><label for="number">No HP</label></td>
+            <td>
+                <input style="width: 350px;" type="text" name="no hp" placeholder="No HP">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+                <input style="width: 350px;" type="email" name="email" placeholder="Email">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td><input type="radio" id="pria" name="gender" value="pria">Pria
+            <input type="radio" id="wanita" name="gender" value="wanita">Wanita</td>
+        </tr>
+        <tr>
+            <td><label for="jenjang">Jenjang</label></td>
+        <td>
+            <select style="width: 350px;" name="jenjang">
+            <option value="TK">TK</option>
+            <option value="SD">SD</option>
+            <option value="SMP">SMP</option>
+            <option value="SMA">SMA</option>
+            <option value="SMK">SMK</option>
+        </select>
+    </td>
+        </tr>
+        <tr>
+            <td><label for="hobi">Hobi</label></td>
+            <td colspan="3">
+            <input type="checkbox" value="membaca">Membaca
+            <input type="checkbox" value="menggambar">Menggambar
+            <input type="checkbox" value="menulis">Menulis
+        </td>
+        </tr>
+        <tr>
+            <td><label for="alamat">Alamat</label></td>
+            <td>
+                <textarea style="width: 350px;" name="alamat" rows="5" cols="40"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Kirim"></td>
+        </tr>
+        </form>
+    </table>
+</body>
+</html>
